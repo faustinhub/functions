@@ -1,0 +1,13 @@
+def courses(**kwargs):
+  for key,value in kwargs.items():
+   print("{}:{}".format(key,value))
+courses(first='big data',second='ccna',third='hcia')
+def kenya(county="mombasa"):
+  print("i am from " + county)
+  
+kenya()
+kenya("narobi")
+kenya("kiambu")
+kenya("kisumu")
+kenya("kirinyaga")
+kenya("kerugoya")

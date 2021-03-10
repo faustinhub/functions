@@ -1,0 +1,4 @@
+def my_function():
+  print("hello world")
+  print("this is a class")
+my_function()

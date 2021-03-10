@@ -1,0 +1,10 @@
+def product(c,b):
+  s=c*b
+  print("the product is",s)
+product(4,6)
+product(50,10)
+def sum(x,y):
+  a=x+y
+  print("the sum is",a)
+sum(10,20)
+sum(501,958)

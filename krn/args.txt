@@ -1,0 +1,8 @@
+def courses(*args):
+  for subject in args:
+    print(subject)
+courses("big data","CCNA","OOP2")
+def cars(*args):
+  for brand in args:
+    print(brand)
+cars("BMW","BENZ","FORD")
